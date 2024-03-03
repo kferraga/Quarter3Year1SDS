@@ -9,3 +9,9 @@ def value_mapping (pdata, variable_name, map_dict, new_variable = None):
     else:
         pdata[variable_name] = temp_value
     return pdata
+
+def system_var (main, sample, sample_key, Is_Sqrt = False):
+    """"Calculates the system variance by manually calculating the information for design variance based on population sizes, given two pandas dataframes of the original information and the sample. Population variance calculated through Pandas var."""
+    sqr = 0.5 if Is_Sqrt else 1
+    s_var = ((len(main)**2)*(1-len(sample)/len(main))*(1/len(sample))*sample[sample_key].var(ddof=0))**sqr
+    return s_var

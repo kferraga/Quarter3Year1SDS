@@ -1,10 +1,14 @@
-class DIMACS_CNF_Encoding:
+class DimacsCnfEncoding:
     """
     Class for DIMACS CNF Encoding. Currently functions for assignment 1 of Automated Logical Reasoning/color graphs.
     """
 
     def __init__(self):
         # Uses self.reset_variables to init for efficiencies sake.
+        self.dimacs_cnf = None
+        self.edges = None
+        self.arg_index = None
+        self.arg_set = None
         self.reset_variables()
 
     def reset_variables(self):

@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Exploratory Methods of Multivariate Data Analysis\data\deca.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Exploratory Methods of Multivariate Data Analysis\data\df_arabica_clean.csv">
           <value>
             <Attribute>
@@ -11,6 +18,13 @@
           </value>
         </entry>
         <entry key="\Exploratory Methods of Multivariate Data Analysis\data\diamonds.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Exploratory Methods of Multivariate Data Analysis\data\fossils.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

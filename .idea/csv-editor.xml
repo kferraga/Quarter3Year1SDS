@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Exploratory Methods of Multivariate Data Analysis\data\mxmh_survey_results.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Exploratory Methods of Multivariate Data Analysis\data\worlddev.csv">
           <value>
             <Attribute>
